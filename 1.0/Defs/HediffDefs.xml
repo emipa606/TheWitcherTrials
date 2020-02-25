@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef Abstract="True" Name="WitcherTrials_Hediff">
+		<defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+	</HediffDef>
+
+	<HediffDef ParentName="WitcherTrials_Hediff">
+		<defName>WitcherTrials_Hediff_Grasses</defName>
+		<label>Trial of the Grasses</label>
+		<labelNoun>TheTrialofGrasses</labelNoun>
+		<stages>
+			<li>
+				<painFactor>0.8</painFactor>
+				<opinionOfOthersFactor>0.9</opinionOfOthersFactor>
+				<hungerRateFactor>0.8</hungerRateFactor>
+				<restFallFactor>0.8</restFallFactor>
+				<socialFightChanceFactor>0.8</socialFightChanceFactor>
+				<makeImmuneTo>
+				<!-- Grasses -->
+					<li>CatatonicBreakdown</li>
+					<li>Cataract</li>
+					<li>BadBack</li>
+					<li>Asthma</li>
+				<!--         -->
+				</makeImmuneTo>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.3</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<Beauty>-0.2</Beauty>
+					<GlobalLearningFactor>0.25</GlobalLearningFactor>
+					<PsychicSensitivity>-0.2</PsychicSensitivity>
+					<ToxicSensitivity>-0.2</ToxicSensitivity>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+					<PainShockThreshold>0.05</PainShockThreshold>
+					<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+					<ComfyTemperatureMax>0</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="WitcherTrials_Hediff">
+		<defName>WitcherTrials_Hediff_Dreams</defName>
+		<label>Trial of the Dreams</label>
+		<labelNoun>TheTrialofDreams</labelNoun>
+		<stages>
+			<li>
+				<painFactor>0.6</painFactor>
+				<hungerRateFactor>0.6</hungerRateFactor>
+				<restFallFactor>0.6</restFallFactor>
+				<socialFightChanceFactor>0.6</socialFightChanceFactor>
+				<makeImmuneTo>
+				<!-- Grasses -->
+					<li>CatatonicBreakdown</li>
+					<li>Cataract</li>
+					<li>BadBack</li>
+					<li>Asthma</li>
+				<!-- Dreams -->
+					<li>Pregnant</li>
+					<li>HeartAttack</li>
+					<li>HeartArteryBlockage</li>
+					<li>Blindness</li>
+					<li>HearingLoss</li>
+					<li>Cirrhosis</li>
+				<!--        -->
+				</makeImmuneTo>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.5</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.5</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.6</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.4</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.4</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MaxHitPoints>1.3</MaxHitPoints>
+					<Beauty>-0.5</Beauty>
+					<GlobalLearningFactor>0.5</GlobalLearningFactor>
+					<PsychicSensitivity>-0.4</PsychicSensitivity>
+					<ToxicSensitivity>-0.4</ToxicSensitivity>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+					<PainShockThreshold>0.1</PainShockThreshold>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+					<ComfyTemperatureMax>5</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+		
+	<HediffDef ParentName="WitcherTrials_Hediff">
+		<defName>WitcherTrials_Hediff_Elders</defName>
+		<label>Trial of the Elders</label>
+		<labelNoun>TheTrialofElders</labelNoun>
+		<stages>
+			<li>
+				<painFactor>0.25</painFactor>
+				<hungerRateFactor>0.25</hungerRateFactor>
+				<restFallFactor>0.25</restFallFactor>
+				<socialFightChanceFactor>0.25</socialFightChanceFactor>
+				<makeImmuneTo>
+				<!-- Grasses -->
+					<li>CatatonicBreakdown</li>
+					<li>Cataract</li>
+					<li>BadBack</li>
+					<li>Asthma</li>
+				<!-- Dreams -->
+					<li>Pregnant</li>
+					<li>HeartAttack</li>
+					<li>HeartArteryBlockage</li>
+					<li>Blindness</li>
+					<li>HearingLoss</li>
+					<li>Cirrhosis</li>
+				<!-- Elders -->
+					<li>ToxicBuildup</li>
+					<li>PsychicShock</li>
+					<li>FoodPoisoning</li>
+					<li>DrugOverdose</li>
+					<li>Frail</li>
+					<li>Alzheimers</li>
+					<li>Dementia</li>
+					<li>Carcinoma</li>
+					<li>ChemicalDamageSevere</li>
+					<li>Plague</li>
+				<!--         -->
+				</makeImmuneTo>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.8</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.5</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.8</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>1.0</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>1.0</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>1.0</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<Beauty>-1</Beauty>
+					<GlobalLearningFactor>1</GlobalLearningFactor>
+					<PsychicSensitivity>-0.7</PsychicSensitivity>
+					<ToxicSensitivity>-0.7</ToxicSensitivity>
+					<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+					<PainShockThreshold>0.15</PainShockThreshold>
+					<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+					<ComfyTemperatureMax>10</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>
