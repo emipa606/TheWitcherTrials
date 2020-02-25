@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>The Witcher Trials (Continued)</name>
+	<packageId>Mlie.TheWitcherTrials</packageId>
+	<author>Mlie</author>
+	<url>https://github.com/emipa606/TheWitcherTrials</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>
+This is an update of Imojas original mod that is abandoned:
+https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342
+Updated for RimWorld 1.1 and Harmony 2.0
+	</description>
+</ModMetaData>
