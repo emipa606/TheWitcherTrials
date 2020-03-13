@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>WitcherTrials_Brew_Grasses</defName>
+		<label>Brew of the Grasses</label>
+		<description>The Witchers ill reputed Trial of the Grasses is performed by creating a noxious synthesis from natural herbs.\n \n  Firstly, a potently hallucinagenic tea is brewed from the leaves of the psychoid plant. Then, Psychoid leaves and Smokeleaf leaves are crushed to a powder, wrapped in a cloth and placed in the boiling tea. The product is left to ferment for a duration. After a long white, the clotch package is removed, the tea cooled, and consumed.\n \n  This induces severe hallucinagenic states and strong out of body experiences. Should the body survive, it will have been hardened against mortality itself.</description>
+		<graphicData>
+			<texPath>Brews/WitcherBrew_Grasses</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MarketValue>1</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Plant, Processed</foodType>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>TrialoftheGrasses</researchPrerequisite>
+			<recipeUsers>
+				<li>Campfire</li>
+				<li>ElectricStove</li>
+				<li>FueledStove</li>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+			<skillRequirements>
+				<Cooking>2</Cooking>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<PsychiteTea>2</PsychiteTea>
+			<Cloth>3</Cloth>
+			<PsychoidLeaves>4</PsychoidLeaves>
+			<SmokeleafLeaves>4</SmokeleafLeaves>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>WitcherTrials_Brew_Dreams</defName>
+		<label>Brew of the Dreams</label>
+		<description>The Witchers use a stronger solution than the Trial of the Grasses to induce the Trial of the Dreams.\n \n  This is required to grant the Witcher his signature advanced sight and hearing. The Hops, Powder and Herbs are all ground to dust, and wrapped loosely in the cloth of the Devilstrand Mushroom. The package is placed within a solution of the same hallucinagenic tea used in the previous trial, however this time, an extremely volatile liquid is added. This additional component not only activates the active ingredient in the hallucinagenic tea, but also agrevates the powdered component refined from the psychoid leaves. Left to simmer for a great deal of time, the solution is allowed to cool, and is consumed at the brave Witchers expense.\n \n   He may fall unconscious a mutant, but he will awaken a master.</description>
+		<graphicData>
+			<texPath>Brews/WitcherBrew_Dreams</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>2000</WorkToMake>
+			<MarketValue>1</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Plant, Processed</foodType>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>TrialoftheDreams</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricStove</li>
+				<li>FueledStove</li>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+			<skillRequirements>
+				<Cooking>5</Cooking>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Chemfuel>1</Chemfuel>
+			<PsychiteTea>3</PsychiteTea>
+			<Yayo>5</Yayo>
+			<RawHops>2</RawHops>
+			<MedicineHerbal>5</MedicineHerbal>
+			<DevilstrandCloth>5</DevilstrandCloth>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>WitcherTrials_Brew_Elders</defName>
+		<label>Brew of the Elders</label>
+		<description>Long ago, before the famous Witcher strongholds fell into decay. The Elders, over hundreds of years, formulated an experiemental decoction. One that would force a witchers body, senses and mind to become so much more, or destroy it in the process. A process so unnatural, that even a witcher likely wouldn't survive.\n \n  The Elders treated their creation with great caution, they rightly feared the effect it could have. Only one was ever subjected to its Trial. Written only by the Elders as Gwynbleidd, the witcher plaything of the Elders was subjected, endured and survived their final Trial.\n \n  Their mockery of science, magic and nature, their protestation to the limitations of the creations of gods. His hair as white as milk, Gwynbleidd's legends appear throughout history, seldom in his favor.</description>
+		<graphicData>
+			<texPath>Brews/WitcherBrew_Elders</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MarketValue>1</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Plant, Processed</foodType>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>TrialoftheElders</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+			<skillRequirements>
+				<Cooking>10</Cooking>
+			</skillRequirements>
+		</recipeMaker>
+		<costList> <!-- Ingredients -->
+			<Chemfuel>2</Chemfuel>
+			<GoJuice>5</GoJuice>
+			<DevilstrandCloth>5</DevilstrandCloth>
+			<Neutroamine>2</Neutroamine>
+			<RawFungus>10</RawFungus>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>WitcherTrials_Melee_SilverSword</defName>
+		<label>Witcher's Silver Sword</label>
+		<description>The Silver Sword of a witcher. Lighter and faster. For slaying the beasts of the continent. (Additional features intended for future version)</description>
+		<graphicData>
+			<texPath>Weapons/Silver_Sword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<!-- <costStuffCount>100</costStuffCount> -->
+		<statBases>
+			<WorkToMake>3600</WorkToMake>
+			<Mass>1.6</Mass>
+		</statBases>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>WitcherSwordMaking</researchPrerequisite>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<costList> <!-- Ingredients -->
+			<Silver>15</Silver>
+			<Steel>25</Steel>
+			<WoodLog>10</WoodLog>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>WitcherTrials_Melee_SteelSword</defName>
+		<label>Witcher's Steel Sword</label>
+		<description>The Steel Sword of a witcher. Heavier and slower. For breaching the plate mortals are known to don. (Additional features intended for future version)</description>
+		<graphicData>
+			<texPath>Weapons/Steel_Sword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<!-- <costStuffCount>100</costStuffCount> -->
+		<statBases>
+			<WorkToMake>3600</WorkToMake>
+			<Mass>1.6</Mass>
+		</statBases>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>WitcherSwordMaking</researchPrerequisite>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workSkill>Crafting</workSkill>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		
+		<costList> <!-- Ingredients -->
+			<Silver>2</Silver>
+			<Steel>135</Steel>
+			<WoodLog>10</WoodLog>
+		</costList>
+	</ThingDef>
+  
+    
+</Defs>
