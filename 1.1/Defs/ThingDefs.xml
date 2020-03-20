@@ -12,7 +12,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<WorkToMake>1000</WorkToMake>
-			<MarketValue>1</MarketValue>
+			<MarketValue>10000</MarketValue>
 			<Mass>0.05</Mass>
 		</statBases>
 		<techLevel>Neolithic</techLevel>
@@ -39,6 +39,7 @@
 			<PsychoidLeaves>4</PsychoidLeaves>
 			<SmokeleafLeaves>4</SmokeleafLeaves>
 		</costList>
+		<tradeability>None</tradeability>
 	</ThingDef>
 	
 	<ThingDef ParentName="MakeableDrugBase">
@@ -52,7 +53,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<WorkToMake>2000</WorkToMake>
-			<MarketValue>1</MarketValue>
+			<MarketValue>10000</MarketValue>
 			<Mass>0.05</Mass>
 		</statBases>
 		<techLevel>Neolithic</techLevel>
@@ -80,6 +81,7 @@
 			<MedicineHerbal>5</MedicineHerbal>
 			<DevilstrandCloth>5</DevilstrandCloth>
 		</costList>
+		<tradeability>None</tradeability>
 	</ThingDef>
 	
 	<ThingDef ParentName="MakeableDrugBase">
@@ -93,7 +95,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<WorkToMake>2500</WorkToMake>
-			<MarketValue>1</MarketValue>
+			<MarketValue>10000</MarketValue>
 			<Mass>0.05</Mass>
 		</statBases>
 		<techLevel>Neolithic</techLevel>
@@ -118,6 +120,7 @@
 			<Neutroamine>2</Neutroamine>
 			<RawFungus>10</RawFungus>
 		</costList>
+		<tradeability>None</tradeability>
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -136,6 +139,7 @@
 		<statBases>
 			<WorkToMake>3600</WorkToMake>
 			<Mass>1.6</Mass>
+			<MarketValue>10000</MarketValue>
 		</statBases>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<tools>
@@ -166,6 +170,7 @@
 			<Steel>25</Steel>
 			<WoodLog>10</WoodLog>
 		</costList>
+		<tradeability>None</tradeability>
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -184,6 +189,7 @@
 		<statBases>
 			<WorkToMake>3600</WorkToMake>
 			<Mass>1.6</Mass>
+			<MarketValue>10000</MarketValue>
 		</statBases>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<tools>
@@ -214,6 +220,7 @@
 			<Steel>135</Steel>
 			<WoodLog>10</WoodLog>
 		</costList>
+		<tradeability>None</tradeability>
 	</ThingDef>
   
     
