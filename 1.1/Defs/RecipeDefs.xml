@@ -1,94 +1,101 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<RecipeDef Abstract="True" Name="WitcherTrials_Recipe">
-		<!-- Logic -->
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<targetsBodyPart>false</targetsBodyPart>
-		<!-- End of Recipe -->
-	</RecipeDef>
-	
-	<RecipeDef ParentName="WitcherTrials_Recipe">
-		<!-- Description -->
-		<defName>WitcherTrials_Recipe_Grasses</defName>
-		<label>Trial of the Grasses</label>
-		<description>Perform the barbaric witcher trial of the grasses.</description>
-		<jobString>Administering the trials.</jobString>
-		<!-- Logic -->
-		<workerClass>WitcherTrials.RecipeSurgery_Grasses</workerClass> <!-- worker class -->
-		<researchPrerequisite>TrialoftheGrasses</researchPrerequisite>
-		<!-- Details -->
-		<workAmount>3000</workAmount> <!--3000 time action takes -->
-		<surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor> <!--0.3 chance of success -->
-		<deathOnFailedSurgeryChance>0.3</deathOnFailedSurgeryChance> <!--0.3 chance of death on failure -->
-		<!-- Ingredients -->
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WitcherTrials_Brew_Grasses</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<!-- End of Recipe -->
-	</RecipeDef>
-
-	<RecipeDef ParentName="WitcherTrials_Recipe">
-		<!-- Description -->
-		<defName>WitcherTrials_Recipe_Dreams</defName>
-		<label>Trial of the Dreams</label>
-		<description>The secret ritual that grants the witchers their famous eyes.</description>
-		<jobString>Administering the trials.</jobString>
-		<!-- Logic -->
-		<workerClass>WitcherTrials.RecipeSurgery_Dreams</workerClass> <!-- worker class -->
-		<researchPrerequisite>TrialoftheDreams</researchPrerequisite>
-		<!-- Details -->
-		<workAmount>4500</workAmount> <!--4500 time action takes -->
-		<surgerySuccessChanceFactor>0.4</surgerySuccessChanceFactor> <!--0.3 chance of success -->
-		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance> <!--0.6 chance of death on failure -->
-		<!-- Ingredients -->
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WitcherTrials_Brew_Dreams</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<!-- End of Recipe -->
-	</RecipeDef>
-
-	<RecipeDef ParentName="WitcherTrials_Recipe">
-		<!-- Description -->
-		<defName>WitcherTrials_Recipe_Elders</defName>
-		<label>Trial of the Elders</label>
-		<description>The forgotton knowledge of Kaer Morhen, only Geralt is known to have survived this trial.</description>
-		<jobString>Administering the trials.</jobString>
-		<!-- Logic -->
-		<workerClass>WitcherTrials.RecipeSurgery_Elders</workerClass> <!-- worker class -->
-		<researchPrerequisite>TrialoftheElders</researchPrerequisite>
-		<!-- Details -->
-		<workAmount>6000</workAmount> <!--6000 time action takes -->
-		<surgerySuccessChanceFactor>0.3</surgerySuccessChanceFactor> <!-- chance of success -->
-		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance> <!-- chance of death on failure -->
-		<!-- Ingredients -->
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WitcherTrials_Brew_Elders</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<!-- End of Recipe -->
-	</RecipeDef>
-	
+  <RecipeDef Abstract="True" Name="WitcherTrials_Recipe">
+    <!-- Logic -->
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <targetsBodyPart>false</targetsBodyPart>
+    <!-- End of Recipe -->
+  </RecipeDef>
+  <RecipeDef ParentName="WitcherTrials_Recipe">
+    <!-- Description -->
+    <defName>WitcherTrials_Recipe_Grasses</defName>
+    <label>Trial of the Grasses</label>
+    <description>Perform the barbaric witcher trial of the grasses.</description>
+    <jobString>Administering the trials.</jobString>
+    <!-- Logic -->
+    <workerClass>WitcherTrials.RecipeSurgery_Grasses</workerClass>
+    <!-- worker class -->
+    <researchPrerequisite>TrialoftheGrasses</researchPrerequisite>
+    <!-- Details -->
+    <workAmount>3000</workAmount>
+    <!--3000 time action takes -->
+    <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
+    <!--0.3 chance of success -->
+    <deathOnFailedSurgeryChance>0.3</deathOnFailedSurgeryChance>
+    <!--0.3 chance of death on failure -->
+    <!-- Ingredients -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WitcherTrials_Brew_Grasses</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <!-- End of Recipe -->
+  </RecipeDef>
+  <RecipeDef ParentName="WitcherTrials_Recipe">
+    <!-- Description -->
+    <defName>WitcherTrials_Recipe_Dreams</defName>
+    <label>Trial of the Dreams</label>
+    <description>The secret ritual that grants the witchers their famous eyes.</description>
+    <jobString>Administering the trials.</jobString>
+    <!-- Logic -->
+    <workerClass>WitcherTrials.RecipeSurgery_Dreams</workerClass>
+    <!-- worker class -->
+    <researchPrerequisite>TrialoftheDreams</researchPrerequisite>
+    <!-- Details -->
+    <workAmount>4500</workAmount>
+    <!--4500 time action takes -->
+    <surgerySuccessChanceFactor>0.4</surgerySuccessChanceFactor>
+    <!--0.3 chance of success -->
+    <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <!--0.6 chance of death on failure -->
+    <!-- Ingredients -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WitcherTrials_Brew_Dreams</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <!-- End of Recipe -->
+  </RecipeDef>
+  <RecipeDef ParentName="WitcherTrials_Recipe">
+    <!-- Description -->
+    <defName>WitcherTrials_Recipe_Elders</defName>
+    <label>Trial of the Elders</label>
+    <description>The forgotton knowledge of Kaer Morhen, only Geralt is known to have survived this trial.</description>
+    <jobString>Administering the trials.</jobString>
+    <!-- Logic -->
+    <workerClass>WitcherTrials.RecipeSurgery_Elders</workerClass>
+    <!-- worker class -->
+    <researchPrerequisite>TrialoftheElders</researchPrerequisite>
+    <!-- Details -->
+    <workAmount>6000</workAmount>
+    <!--6000 time action takes -->
+    <surgerySuccessChanceFactor>0.3</surgerySuccessChanceFactor>
+    <!-- chance of success -->
+    <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+    <!-- chance of death on failure -->
+    <!-- Ingredients -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WitcherTrials_Brew_Elders</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <!-- End of Recipe -->
+  </RecipeDef>
 </Defs>
