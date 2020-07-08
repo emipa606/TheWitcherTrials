@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>The Witcher Trials (Continued)</name>
   <packageId>Mlie.TheWitcherTrials</packageId>
@@ -8,6 +8,10 @@
     <li>1.0</li>
     <li>1.1</li>
   </supportedVersions>
+  <modDependencies />
+  <loadAfter>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
   <description>
 This is an update of Imojas original mod that is abandoned:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342

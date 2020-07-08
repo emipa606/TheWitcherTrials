@@ -141,6 +141,23 @@
     <equippedAngleOffset>-30</equippedAngleOffset>
     <tools>
       <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
         <label>edge</label>
         <capacities>
           <li>Cut</li>
@@ -189,6 +206,23 @@
     </statBases>
     <equippedAngleOffset>-30</equippedAngleOffset>
     <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>3.5</cooldownTime>
+        <chanceFactor>0.05</chanceFactor>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
       <li>
         <label>edge</label>
         <capacities>
