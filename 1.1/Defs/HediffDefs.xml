@@ -4,6 +4,7 @@
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <tendable>false</tendable>
     <makesSickThought>false</makesSickThought>
+    <isBad>false</isBad>
   </HediffDef>
   <HediffDef ParentName="WitcherTrials_Hediff">
     <defName>WitcherTrials_Hediff_Grasses</defName>
