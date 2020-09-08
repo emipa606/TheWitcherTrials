@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <WitcherSilverCut.label>cut</WitcherSilverCut.label>
-  <WitcherSilverCut.deathMessage>{0} has been cut to death.</WitcherSilverCut.deathMessage>
-
+  <!--<WitcherSilverCut.label>cut</WitcherSilverCut.label>-->
+  <!--<WitcherSilverCut.deathMessage>{0} has been cut to death.</WitcherSilverCut.deathMessage>-->
 
 </LanguageData>
