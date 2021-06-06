@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>The Witcher Trials (Continued)</name>
   <packageId>Mlie.TheWitcherTrials</packageId>
-  <author>Mlie</author>
+  <author>Imoja</author>
   <url>https://github.com/emipa606/TheWitcherTrials</url>
   <supportedVersions>
     <li>1.0</li>
@@ -21,9 +21,71 @@
     <li>brrainz.harmony</li>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
 This is an update of Imojas original mod that is abandoned:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342
-Updated and Harmony 2.0
-	</description>
+
+- Added support for CE
+
+Patch by Darkstar for Medival playthrough using the Apotechary mod:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2071060903
+
+Artwork by: ib2grh8
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/TheWitcherTrials][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+Image created by 'alexnegrea' of DeviantArt. (https://www.deviantart.com/alexnegrea/)
+(Please save your game FIRST. These operations unbalance vanilla pawns, and [spoiler]failed Trails of the Grasses[/spoiler] may kill your pawns.)
+
+[h1]Update v2.0:[/h1]
+v2.0 - [spoiler]C# implemented, Operations are sequential and require ingredients, white hair, witcher swords, and more.[/spoiler]
+
+
+[h1]Introduction[/h1]	
+This mod allows you to research the ancient Witcher trials and perform the procedures on your pawns. You are able to research:[list]
+[*] The Trial of the Grasses: The first trial. The body is manipulated with herbs, toxins and poisons. This primarily affects the nervous system.
+[*] The Trial of the Dreams: The second trial. The mutation of the eyes, hormones and bone marrow is performed.
+[*] The Trial of the Elders: The final trial. Forgotton practices were once performed on the witchers. You too can uncover these secrets, and pay the price.[/list]
+
+
+[h1]Good questions so far:[/h1][list]
+[*]I have a big modlist, are there any compatability issues? - I sincerely doubt it, my mod only adds.
+[*]Can I use this on a running savegame? - Knock yourself out, will be fine. Uninstalling is a different matter. 
+[*]When I apply a new Trial, the old one disappears? - This is expected behaviour. Its easier to calculate the balance of the mod when only one Trial is being applied to the stats.
+[/list]
+
+[h1]Anticipated questions:[/h1][list]
+[*]Q: My hair isnt white?! - 
+	A: [spoiler]Keep going.[/spoiler]
+[*]Q: These ingredients are unrealistic!/The research takes too long!/The costs are too damn high!
+	A: [spoiler]Honestly? Witchers are overpowered, think of witchers as implanting every bionic. Now do you get it?[/spoiler]
+[/list]
+
+[h1]UNINSTALLING THIS MOD:[/h1][olist]
+[*] Enable Dev Mode. (BUT I PERMANENTLY DISABLED IT!? - you've just learnt a valuable lesson.)
+[*] Use 'Destroy' to delete any items made by my mod.
+[*] Use 'Remove Hediff...' to disable the Trials bonuses on your affect pawns.
+[*] Save your game, exit rimworld.[/olist]
+Your save should now be clean.
+
+
+Feedback encouraged.
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>
