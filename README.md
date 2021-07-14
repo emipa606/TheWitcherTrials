@@ -26,7 +26,7 @@ Artwork by: ib2grh8
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
-Image created by 'alexnegrea' of DeviantArt. (https://www.deviantart.com/alexnegrea/)
+Image created by &apos;alexnegrea&apos; of DeviantArt. (https://www.deviantart.com/alexnegrea/)
 (Please save your game FIRST. These operations unbalance vanilla pawns, and [spoiler]failed Trails of the Grasses[/spoiler] may kill your pawns.)
 
 # Update v2.0:
@@ -65,9 +65,9 @@ This mod allows you to research the ancient Witcher trials and perform the proce
 
 # UNINSTALLING THIS MOD:
 [olist]
--  Enable Dev Mode. (BUT I PERMANENTLY DISABLED IT!? - you've just learnt a valuable lesson.)
--  Use 'Destroy' to delete any items made by my mod.
--  Use 'Remove Hediff...' to disable the Trials bonuses on your affect pawns.
+-  Enable Dev Mode. (BUT I PERMANENTLY DISABLED IT!? - you&apos;ve just learnt a valuable lesson.)
+-  Use &apos;Destroy&apos; to delete any items made by my mod.
+-  Use &apos;Remove Hediff...&apos; to disable the Trials bonuses on your affect pawns.
 -  Save your game, exit rimworld.[/olist]
 Your save should now be clean.
 
