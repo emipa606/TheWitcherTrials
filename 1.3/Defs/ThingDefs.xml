@@ -73,8 +73,7 @@
     </recipeMaker>
     <costList>
       <Chemfuel>1</Chemfuel>
-      <PsychiteTea>3</PsychiteTea>
-      <Yayo>5</Yayo>
+      <PsychiteTea>8</PsychiteTea>
       <RawHops>2</RawHops>
       <MedicineHerbal>5</MedicineHerbal>
       <DevilstrandCloth>5</DevilstrandCloth>
@@ -113,9 +112,8 @@
     <costList>
       <!-- Ingredients -->
       <Chemfuel>2</Chemfuel>
-      <GoJuice>5</GoJuice>
       <DevilstrandCloth>5</DevilstrandCloth>
-      <Neutroamine>2</Neutroamine>
+      <Neutroamine>7</Neutroamine>
       <RawFungus>10</RawFungus>
     </costList>
     <tradeability>None</tradeability>
@@ -250,6 +248,147 @@
       <Steel>135</Steel>
       <WoodLog>10</WoodLog>
     </costList>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Apparel_WitcherMedallion</defName>
+    <label>Witcher's medallion</label>
+    <description>An enchanted medallion often warn by Witchers; it is said that it vibrates when a monster is nearby, forewarning them of an incoming attacks.</description>
+    <thingClass>WitcherTrials.WitcherActivatedApparel</thingClass>
+    <graphicData>
+      <texPath>Armor/WitcherMedallion</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <Mass>.05</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <Insulation_Cold>0</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+      <WorkToMake>3600</WorkToMake>
+      <MarketValue>10000</MarketValue>
+    </statBases>
+    <thingCategories Inherit="False">
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <hatRenderedAboveBody>true</hatRenderedAboveBody>
+      <hatRenderedBehindHead>false</hatRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/WitcherMedallion</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Witcher</li>
+        <li>MedievalMilitaryDecent</li>
+        <li>MedievalArmorDecent</li>
+      </tags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>WitcherSwordMaking</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <!-- Ingredients -->
+      <Steel>10</Steel>
+      <Gold>1</Gold>
+      <Jade>10</Jade>
+      <Silver>2</Silver>
+    </costList>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Apparel_WitcherMedallion_Active</defName>
+    <label>Witcher's medallion</label>
+    <description>An enchanted medallion often warn by Witchers; it is said that it vibrates when a monster is nearby, forewarning them of an incoming attacks. Now worn by a witcher, it shows a faint glow.</description>
+    <thingClass>WitcherTrials.WitcherActivatedApparel</thingClass>
+    <graphicData>
+      <texPath>Armor/WitcherMedallion</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <Mass>.05</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <Insulation_Cold>0</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+      <MarketValue>10000</MarketValue>
+    </statBases>
+    <thingCategories Inherit="False">
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <PsychicSensitivity>-0.90</PsychicSensitivity>
+      <HuntingStealth>0.25</HuntingStealth>
+      <AimingDelayFactor>-0.25</AimingDelayFactor>
+      <MeleeDodgeChance>0.25</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <hatRenderedAboveBody>true</hatRenderedAboveBody>
+      <hatRenderedBehindHead>false</hatRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/WitcherMedallion</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Witcher</li>
+      </tags>
+    </apparel>
     <tradeability>None</tradeability>
   </ThingDef>
 </Defs>

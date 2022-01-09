@@ -2,7 +2,7 @@
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
-This is an update of Imojas original mod that is abandoned:
+Update of Imojas mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342
 
 - Added support for CE
@@ -10,7 +10,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342
 Patch by Darkstar for Medival playthrough using the Apotechary mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2071060903
 
-Artwork by: ib2grh8
+Original artwork by: ib2grh8
+New artwork by: Delta
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

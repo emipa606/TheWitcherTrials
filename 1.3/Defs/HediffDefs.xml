@@ -81,6 +81,8 @@
           <li>Blindness</li>
           <li>HearingLoss</li>
           <li>Cirrhosis</li>
+          <li MayRequire="silencer59.timekills">TK_OldAge</li>
+          <li MayRequire="silencer59.timekills">TK_Degradation</li>
           <!--        -->
         </makeImmuneTo>
         <capMods>
@@ -158,6 +160,8 @@
           <li>Carcinoma</li>
           <li>ChemicalDamageSevere</li>
           <li>Plague</li>
+          <li MayRequire="silencer59.timekills">TK_OldAge</li>
+          <li MayRequire="silencer59.timekills">TK_Degradation</li>
           <!--         -->
         </makeImmuneTo>
         <capMods>
