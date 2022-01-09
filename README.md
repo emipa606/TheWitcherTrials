@@ -1,6 +1,6 @@
 # TheWitcherTrials
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 This is an update of Imojas original mod that is abandoned:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342
@@ -12,21 +12,12 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2071060903
 
 Artwork by: ib2grh8
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/TheWitcherTrials]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
-Image created by &apos;alexnegrea&apos; of DeviantArt. (https://www.deviantart.com/alexnegrea/)
+Image created by 'alexnegrea' of DeviantArt. (https://www.deviantart.com/alexnegrea/)
 (Please save your game FIRST. These operations unbalance vanilla pawns, and [spoiler]failed Trails of the Grasses[/spoiler] may kill your pawns.)
 
 # Update v2.0:
@@ -65,16 +56,16 @@ This mod allows you to research the ancient Witcher trials and perform the proce
 
 # UNINSTALLING THIS MOD:
 [olist]
--  Enable Dev Mode. (BUT I PERMANENTLY DISABLED IT!? - you&apos;ve just learnt a valuable lesson.)
--  Use &apos;Destroy&apos; to delete any items made by my mod.
--  Use &apos;Remove Hediff...&apos; to disable the Trials bonuses on your affect pawns.
+-  Enable Dev Mode. (BUT I PERMANENTLY DISABLED IT!? - you've just learnt a valuable lesson.)
+-  Use 'Destroy' to delete any items made by my mod.
+-  Use 'Remove Hediff...' to disable the Trials bonuses on your affect pawns.
 -  Save your game, exit rimworld.[/olist]
 Your save should now be clean.
 
 
 Feedback encouraged.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -84,5 +75,6 @@ Feedback encouraged.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
