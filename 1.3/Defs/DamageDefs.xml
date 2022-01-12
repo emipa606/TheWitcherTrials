@@ -23,4 +23,46 @@
     </cutExtraTargetsCurve>
     <cutCleaveBonus>1.4</cutCleaveBonus>
   </DamageDef>
+  <DamageDef Name="ExternalViolenceForMonster" Abstract="True">
+    <defName>ExternalViolenceForMonster</defName>
+    <harmsHealth>true</harmsHealth>
+    <makesBlood>true</makesBlood>
+    <label>stab</label>
+    <workerClass>DamageWorker_Stab</workerClass>
+    <deathMessage>{0} has been slain.</deathMessage>
+    <defaultDamage>100</defaultDamage>
+    <defaultStoppingPower>1.0</defaultStoppingPower>
+    <hediff>Stab</hediff>
+    <hediffSkin>Cut</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <modExtensions>
+      <li Class="WitcherTrials.DamageModExtension">
+        <isMonsterDamage>true</isMonsterDamage>
+      </li>
+    </modExtensions>
+  </DamageDef>
+  <ToolCapacityDef>
+    <defName>ExternalViolenceForMonster</defName>
+  </ToolCapacityDef>
+  <DamageDef ParentName="ExternalViolenceForMonster">
+    <defName>WitcherSilverToxic</defName>
+    <label>silver allergy</label>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff>
+        <severityPerDamageDealt>0.015</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+    <impactSoundType>Toxic</impactSoundType>
+    <damageEffecter>Impact_Toxic</damageEffecter>
+  </DamageDef>
+  <ToolCapacityDef>
+    <defName>WitcherSilverToxic</defName>
+  </ToolCapacityDef>
 </Defs>

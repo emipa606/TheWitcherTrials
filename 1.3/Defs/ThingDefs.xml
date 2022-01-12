@@ -170,6 +170,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
         <li>TableMachining</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
       </recipeUsers>
       <workSkill>Crafting</workSkill>
       <skillRequirements>
@@ -236,6 +237,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
         <li>TableMachining</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
       </recipeUsers>
       <workSkill>Crafting</workSkill>
       <skillRequirements>
@@ -256,7 +258,7 @@
     <description>An enchanted medallion often warn by Witchers; it is said that it vibrates when a monster is nearby, forewarning them of an incoming attacks.</description>
     <thingClass>WitcherTrials.WitcherActivatedApparel</thingClass>
     <graphicData>
-      <texPath>Armor/WitcherMedallion</texPath>
+      <texPath>Armour/WitcherMedallion</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Medieval</techLevel>
@@ -295,7 +297,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/WitcherMedallion</wornGraphicPath>
+      <wornGraphicPath>Armour/WitcherMedallion</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -316,6 +318,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
         <li>TableMachining</li>
+        <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
       </recipeUsers>
       <useIngredientsForColor>false</useIngredientsForColor>
       <skillRequirements>
@@ -334,10 +337,10 @@
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>Apparel_WitcherMedallion_Active</defName>
     <label>Witcher's medallion</label>
-    <description>An enchanted medallion often warn by Witchers; it is said that it vibrates when a monster is nearby, forewarning them of an incoming attacks. Now worn by a witcher, it shows a faint glow.</description>
+    <description>An enchanted medallion often warn by Witchers; it is said that it vibrates when a monster is nearby, forewarning them of an incoming attacks. Now when worn by a witcher, it shows a faint glow.</description>
     <thingClass>WitcherTrials.WitcherActivatedApparel</thingClass>
     <graphicData>
-      <texPath>Armor/WitcherMedallion</texPath>
+      <texPath>Armour/WitcherMedallion</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Medieval</techLevel>
@@ -381,7 +384,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/WitcherMedallion</wornGraphicPath>
+      <wornGraphicPath>Armour/WitcherMedallion</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -390,5 +393,56 @@
       </tags>
     </apparel>
     <tradeability>None</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_WitcherTrainingArmour</defName>
+    <label>Witcher's Training Armour</label>
+    <description>Armour used by trainee Witcher's; good at taking the worse damage from those long training sessions.</description>
+    <graphicData>
+      <texPath>Armour/WitcherTraining</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>WitcherTrials</researchPrerequisite>
+    </recipeMaker>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>10</Mass>
+      <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armour/WitcherTraining</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Witcher</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 </Defs>

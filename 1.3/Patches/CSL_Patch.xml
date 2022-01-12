@@ -5,7 +5,7 @@
       <li>Children, school and learning</li>
     </mods>
     <match Class="PatchOperationAdd">
-      <xpath>/Defs/HediffDef[defName = "WitcherTrials_Hediff_Dreams"]/capMods</xpath>
+      <xpath>/Defs/HediffDef[defName = "WitcherTrials_Hediff_Dreams"]/stages/li/capMods</xpath>
       <value>
         <li>
           <capacity>Fertility</capacity>

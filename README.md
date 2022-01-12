@@ -6,6 +6,7 @@ Update of Imojas mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1535737342
 
 - Added support for CE
+- Added a certain medallion
 
 Patch by Darkstar for Medival playthrough using the Apotechary mod:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2071060903
