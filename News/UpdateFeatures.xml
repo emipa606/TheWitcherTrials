@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="TheWitcherTrials_UpdateFeatureBase">
     <modNameReadable>TheWitcherTrials</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2007359174</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="TheWitcherTrials_UpdateFeatureBase">
     <defName>TheWitcherTrials_1_3_2</defName>
     <assemblyVersion>1.3.2</assemblyVersion>
     <content>The graphics for the brews and the swords are now updated.
