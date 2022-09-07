@@ -39,6 +39,7 @@
       <SmokeleafLeaves>4</SmokeleafLeaves>
     </costList>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="MakeableDrugBase">
     <defName>WitcherTrials_Brew_Dreams</defName>
@@ -79,6 +80,7 @@
       <DevilstrandCloth>5</DevilstrandCloth>
     </costList>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="MakeableDrugBase">
     <defName>WitcherTrials_Brew_Elders</defName>
@@ -117,6 +119,7 @@
       <RawFungus>10</RawFungus>
     </costList>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>WitcherTrials_Melee_SilverSword</defName>
@@ -184,6 +187,7 @@
       <WoodLog>10</WoodLog>
     </costList>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>WitcherTrials_Melee_SteelSword</defName>
@@ -251,6 +255,7 @@
       <WoodLog>10</WoodLog>
     </costList>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>Apparel_WitcherMedallion</defName>
@@ -333,6 +338,7 @@
       <Silver>2</Silver>
     </costList>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>Apparel_WitcherMedallion_Active</defName>
@@ -393,6 +399,7 @@
       </tags>
     </apparel>
     <tradeability>None</tradeability>
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_WitcherTrainingArmour</defName>
@@ -444,5 +451,6 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <generateAllowChance>0</generateAllowChance>
   </ThingDef>
 </Defs>
