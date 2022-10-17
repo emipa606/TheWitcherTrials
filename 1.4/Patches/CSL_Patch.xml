@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Children, school and learning</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/HediffDef[defName = "WitcherTrials_Hediff_Dreams"]/stages/li/capMods</xpath>
+      <value>
+        <li>
+          <capacity>Fertility</capacity>
+          <offset>-1.0</offset>
+        </li>
+        <li>
+          <capacity>Fertility</capacity>
+          <offset>-1.0</offset>
+        </li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
