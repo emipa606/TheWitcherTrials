@@ -1,5 +1,8 @@
 # Changelog for TheWitcherTrials
 
+1.4.2 - Improved sword-textures by Schwarzneg Arnolder
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
