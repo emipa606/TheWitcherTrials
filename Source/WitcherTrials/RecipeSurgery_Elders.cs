@@ -27,6 +27,6 @@ public class RecipeSurgery_Elders : Recipe_Surgery
         //Change pawn haircolor to white
         pawn.story.HairColor = Color.white;
         //force redraw pawn hair
-        pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+        pawn.Drawer.renderer.SetAllGraphicsDirty();
     }
 }

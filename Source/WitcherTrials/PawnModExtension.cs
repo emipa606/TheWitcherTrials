@@ -4,5 +4,5 @@ namespace WitcherTrials;
 
 public class PawnModExtension : DefModExtension
 {
-    public bool isMonster = false;
+    public readonly bool isMonster = false;
 }
