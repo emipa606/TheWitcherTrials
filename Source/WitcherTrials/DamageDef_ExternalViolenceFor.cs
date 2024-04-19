@@ -3,31 +3,23 @@ using Verse;
 
 namespace WitcherTrials;
 
-[HarmonyPatch(typeof(DamageDef), "ExternalViolenceFor", typeof(Thing))]
+[HarmonyPatch(typeof(DamageDef), nameof(DamageDef.ExternalViolenceFor), typeof(Thing))]
 public class DamageDef_ExternalViolenceFor
 {
     public static void Postfix(Thing thing, DamageDef __instance, ref bool __result)
     {
-        if (__result)
-        {
-            return;
-        }
-
-        if (__instance.GetModExtension<DamageModExtension>()?.isMonsterDamage == false)
+        var damageExtension = __instance.GetModExtension<DamageModExtension>();
+        if (damageExtension is not { isMonsterDamage: true })
         {
             return;
         }
 
         if (thing is not Pawn pawn)
         {
+            __result = false;
             return;
         }
 
-        if (pawn.def.GetModExtension<PawnModExtension>()?.isMonster == false)
-        {
-            return;
-        }
-
-        __result = true;
+        __result = pawn.def.GetModExtension<PawnModExtension>()?.isMonster == true;
     }
 }

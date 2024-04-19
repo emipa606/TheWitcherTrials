@@ -1,11 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Megascarab"]</xpath>
+    <xpath>Defs/ThingDef[@ParentName="BaseInsect" or @ParentName="BaseFleshbeast"]</xpath>
     <value>
       <li Class="WitcherTrials.PawnModExtension">
         <isMonster>true</isMonster>
       </li>
     </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Revenant"]</xpath>
+    <match Class="PatchOperationAddModExtension">
+      <xpath>Defs/ThingDef/race[leatherDef="Leather_Dread"]/..</xpath>
+      <value>
+        <li Class="WitcherTrials.PawnModExtension">
+          <isMonster>true</isMonster>
+        </li>
+      </value>
+    </match>
   </Operation>
 </Patch>
