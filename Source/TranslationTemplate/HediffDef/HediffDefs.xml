@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Trial of the Dreams -->
+  <WitcherTrials_Hediff_Dreams.label>Trial of the Dreams</WitcherTrials_Hediff_Dreams.label>
+  <!-- EN: The second trial. The mutation of the eyes, hormones and bone marrow is performed. -->
+  <WitcherTrials_Hediff_Dreams.description>The second trial. The mutation of the eyes, hormones and bone marrow is performed.</WitcherTrials_Hediff_Dreams.description>
+  <!-- EN: TheTrialofDreams -->
+  <WitcherTrials_Hediff_Dreams.labelNoun>TheTrialofDreams</WitcherTrials_Hediff_Dreams.labelNoun>
+  <!-- EN: Trial of the Elders -->
+  <WitcherTrials_Hediff_Elders.label>Trial of the Elders</WitcherTrials_Hediff_Elders.label>
+  <!-- EN: The final trial. Forgotton practices were once performed on the witchers. You too can uncover these secrets, and pay the price. -->
+  <WitcherTrials_Hediff_Elders.description>The final trial. Forgotton practices were once performed on the witchers. You too can uncover these secrets, and pay the price.</WitcherTrials_Hediff_Elders.description>
+  <!-- EN: TheTrialofElders -->
+  <WitcherTrials_Hediff_Elders.labelNoun>TheTrialofElders</WitcherTrials_Hediff_Elders.labelNoun>
+  <!-- EN: Trial of the Grasses -->
+  <WitcherTrials_Hediff_Grasses.label>Trial of the Grasses</WitcherTrials_Hediff_Grasses.label>
+  <!-- EN: The first trial. The body is manipulated with herbs, toxins and poisons. This primarily affects the nervous system. -->
+  <WitcherTrials_Hediff_Grasses.description>The first trial. The body is manipulated with herbs, toxins and poisons. This primarily affects the nervous system.</WitcherTrials_Hediff_Grasses.description>
+  <!-- EN: TheTrialofGrasses -->
+  <WitcherTrials_Hediff_Grasses.labelNoun>TheTrialofGrasses</WitcherTrials_Hediff_Grasses.labelNoun>
+</LanguageData>

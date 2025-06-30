@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 513440850
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 171820f712a7dfdf557e4f8b7cda6bcb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 171820f712a7dfdf557e4f8b7cda6bcb
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Brews/WitcherBrew_Elders.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Brews/WitcherBrew_Grasses.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Fat_north.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherMedallion_south.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Female_north.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Fat_east.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Thin_north.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Weapons/Steel_Sword.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Fat_south.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Weapons/Silver_Sword.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherMedallion_north.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Female_east.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Brews/WitcherBrew_Dreams.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Thin_south.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Hulk_north.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Thin_east.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Male_south.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Male_north.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Male_east.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherMedallion_east.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Hulk_south.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Hulk_east.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherTraining_Female_south.png
+- Assets/Data/Mlie.TheWitcherTrials/Textures/Armour/WitcherMedallion.png
+Dependencies: []

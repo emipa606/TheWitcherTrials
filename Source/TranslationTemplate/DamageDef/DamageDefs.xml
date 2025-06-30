@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cut -->
+  <WitcherSilverCut.label>cut</WitcherSilverCut.label>
+  <!-- EN: {0} has been cut to death. -->
+  <WitcherSilverCut.deathMessage>{0} has been cut to death.</WitcherSilverCut.deathMessage>
+  <!-- EN: silver allergy -->
+  <WitcherSilverToxic.label>silver allergy</WitcherSilverToxic.label>
+  <!-- EN: {0} has been slain. -->
+  <WitcherSilverToxic.deathMessage>{0} has been slain.</WitcherSilverToxic.deathMessage>
+</LanguageData>

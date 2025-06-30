@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Trial of the Dreams -->
+  <WitcherTrials_Recipe_Dreams.label>Trial of the Dreams</WitcherTrials_Recipe_Dreams.label>
+  <!-- EN: The secret ritual that grants the witchers their famous eyes. -->
+  <WitcherTrials_Recipe_Dreams.description>The secret ritual that grants the witchers their famous eyes.</WitcherTrials_Recipe_Dreams.description>
+  <!-- EN: Administering the trials. -->
+  <WitcherTrials_Recipe_Dreams.jobString>Administering the trials.</WitcherTrials_Recipe_Dreams.jobString>
+  <!-- EN: Trial of the Elders -->
+  <WitcherTrials_Recipe_Elders.label>Trial of the Elders</WitcherTrials_Recipe_Elders.label>
+  <!-- EN: The forgotton knowledge of Kaer Morhen, only Geralt is known to have survived this trial. -->
+  <WitcherTrials_Recipe_Elders.description>The forgotton knowledge of Kaer Morhen, only Geralt is known to have survived this trial.</WitcherTrials_Recipe_Elders.description>
+  <!-- EN: Administering the trials. -->
+  <WitcherTrials_Recipe_Elders.jobString>Administering the trials.</WitcherTrials_Recipe_Elders.jobString>
+  <!-- EN: Trial of the Grasses -->
+  <WitcherTrials_Recipe_Grasses.label>Trial of the Grasses</WitcherTrials_Recipe_Grasses.label>
+  <!-- EN: Perform the barbaric witcher trial of the grasses. -->
+  <WitcherTrials_Recipe_Grasses.description>Perform the barbaric witcher trial of the grasses.</WitcherTrials_Recipe_Grasses.description>
+  <!-- EN: Administering the trials. -->
+  <WitcherTrials_Recipe_Grasses.jobString>Administering the trials.</WitcherTrials_Recipe_Grasses.jobString>
+</LanguageData>

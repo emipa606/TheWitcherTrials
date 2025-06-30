@@ -18,7 +18,7 @@ public static class HarmonyPatches
             .First(t => t.GetMethods(AccessTools.all).Any(mi => mi.ReturnType == typeof(List<FloatMenuOption>)))
             .GetMethods(AccessTools.all).First(mi => mi.ReturnType == typeof(List<FloatMenuOption>));
         var type = typeof(HarmonyPatches);
-        var name = nameof(Transpiler1);
+        const string name = nameof(Transpiler1);
         var transpiler = new HarmonyMethod(type, name);
 
         // erdlefs harmony.Patch (for Transpiler) <3 (for hiding operations)
@@ -51,10 +51,10 @@ public static class HarmonyPatches
     {
         var recipes = pawn.def.AllRecipes;
 
-        if (GlobalVars.firstRunCheck)
+        if (GlobalVars.FirstRunCheck)
         {
             // Purge recipelist of WitcherTrials.Recipes
-            GlobalVars.firstRunCheck = false;
+            GlobalVars.FirstRunCheck = false;
             if (recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Grasses))
             {
                 recipes.Remove(RecipeDefOf.WitcherTrials_Recipe_Grasses);
@@ -76,7 +76,7 @@ public static class HarmonyPatches
             pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.WitcherTrials_Hediff_Dreams) == null &&
             pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.WitcherTrials_Hediff_Elders) == null)
         {
-            if (recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Grasses) == false)
+            if (!recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Grasses))
             {
                 recipes.Add(RecipeDefOf.WitcherTrials_Recipe_Grasses); // add grasses
             }
@@ -99,7 +99,7 @@ public static class HarmonyPatches
                 recipes.Remove(RecipeDefOf.WitcherTrials_Recipe_Grasses); // remove grasses
             }
 
-            if (recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Dreams) == false)
+            if (!recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Dreams))
             {
                 recipes.Add(RecipeDefOf.WitcherTrials_Recipe_Dreams); // add dreams
             }
@@ -122,7 +122,7 @@ public static class HarmonyPatches
                 recipes.Remove(RecipeDefOf.WitcherTrials_Recipe_Dreams); // remove dreams
             }
 
-            if (recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Elders) == false)
+            if (!recipes.Contains(RecipeDefOf.WitcherTrials_Recipe_Elders))
             {
                 recipes.Add(RecipeDefOf.WitcherTrials_Recipe_Elders); // add elders
             }

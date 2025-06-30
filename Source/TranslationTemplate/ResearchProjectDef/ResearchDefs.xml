@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Trial of the Dreams -->
+  <TrialoftheDreams.label>Trial of the Dreams</TrialoftheDreams.label>
+  <!-- EN: Performs the second stage of the trials. -->
+  <TrialoftheDreams.description>Performs the second stage of the trials.</TrialoftheDreams.description>
+  <!-- EN: Trial of the Elders -->
+  <TrialoftheElders.label>Trial of the Elders</TrialoftheElders.label>
+  <!-- EN: Performs the third stage of the trials. -->
+  <TrialoftheElders.description>Performs the third stage of the trials.</TrialoftheElders.description>
+  <!-- EN: Trial of the Grasses -->
+  <TrialoftheGrasses.label>Trial of the Grasses</TrialoftheGrasses.label>
+  <!-- EN: Performs the first stage of the trials. -->
+  <TrialoftheGrasses.description>Performs the first stage of the trials.</TrialoftheGrasses.description>
+  <!-- EN: A Witchers Swords -->
+  <WitcherSwordMaking.label>A Witchers Swords</WitcherSwordMaking.label>
+  <!-- EN: Unlock the ritualistic recipes of crafting a Witchers Steel and Silver Swords. -->
+  <WitcherSwordMaking.description>Unlock the ritualistic recipes of crafting a Witchers Steel and Silver Swords.</WitcherSwordMaking.description>
+  <!-- EN: The Witcher Trials -->
+  <WitcherTrials.label>The Witcher Trials</WitcherTrials.label>
+  <!-- EN: Unlocks the ancient trials of the witchers -->
+  <WitcherTrials.description>Unlocks the ancient trials of the witchers</WitcherTrials.description>
+</LanguageData>
